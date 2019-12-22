@@ -1,1 +1,16 @@
+Step 1 : Download the file
+https://spring.io/tools/sts/all 
 
+Step 2 : move the downloaded file to /opt/
+
+Step 3 : create desktop shortcut at usr/share/applcations
+
+inside file write 
+
+[Desktop Entry]
+Type=Application
+Name=Spring Tool Suite
+Comment=Spring Tool Suite
+Exec=/opt/sts-bundle/sts-3.9.1.RELEASE/STS
+Icon=/opt/sts-bundle/sts-3.9.1.RELEASE/icon.xpm
+Categories=Development
